@@ -228,7 +228,8 @@ const mensajes = [
     "🚀 Si la belleza fuera un planeta, tú serías el centro del universo.",
     "🌟 Cada vez que te miro, entiendo por qué los ángeles existen.",
     "🍫 Eres más dulce que el mejor chocolate del mundo.",
-    "🍨 En mi vida eres como una ensalada agridulce: la combinación perfecta de ternura y emoción que la hace única y especial💕🥰."
+    "🍨 En mi vida eres como una ensalada agridulce: la combinación perfecta de ternura y emoción que la hace única y especial💕🥰.",
+    "💕🥰 Para mi eres como una diosa 🫰"
 
 ];
 
@@ -466,29 +467,45 @@ events.forEach(song => {
 
 // Array de objetos con la información de las fotos
 const fotos = [{
-        src: "https://cdn.pixabay.com/photo/2017/04/03/15/52/for-you-2198772_640.png",
+        src: "assets/img/primeraSalida.jpg",
         alt: "Descripción de la foto 1",
         description: "Nuestro primer día juntos. ❤️"
     },
     {
-        src: "https://cdn.pixabay.com/photo/2017/04/03/15/52/for-you-2198772_640.png",
+        src: "assets/img/nevado2.jpeg",
         alt: "Descripción de la foto 2",
         description: "Un paseo inolvidable 🌳"
     },
     {
-        src: "https://cdn.pixabay.com/photo/2017/04/03/15/52/for-you-2198772_640.png",
+        src: "assets/img/corazon.jpeg",
         alt: "Descripción de la foto 3",
-        description: "Celebrando nuestro aniversario 🎉"
+        description: "Salidas a caminar 🍃"
     },
     {
-        src: "https://cdn.pixabay.com/photo/2017/04/03/15/52/for-you-2198772_640.png",
+        src: "assets/img/lago.jpeg",
         alt: "Descripción de la foto 2",
-        description: "Un paseo inolvidable 🌳"
+        description: "Un pequeño paseo 🥶"
     },
     {
-        src: "https://cdn.pixabay.com/photo/2017/04/03/15/52/for-you-2198772_640.png",
+        src: "assets/img/florian2.jpeg",
         alt: "Descripción de la foto 3",
-        description: "Celebrando nuestro aniversario 🎉"
+        description: "Conociendo Pueblitos 💌"
+    },
+    {
+        src: "assets/img/juego.jpeg",
+        alt: "Descripción de la foto 2",
+        description: "Compartir ❤️"
+    },
+    {
+        src: "assets/img/cena.jpeg",
+        alt: "Descripción de la foto 3",
+        description: "Cena Romantica 💌"
+    }
+    ,
+    {
+        src: "assets/img/mar3.jpeg",
+        alt: "Descripción de la foto 3",
+        description: "Conociendo el mar 🌊"
     }
     // Agrega más objetos de fotos aquí según sea necesario
 ];
