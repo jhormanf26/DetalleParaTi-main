@@ -80,14 +80,14 @@ window.addEventListener("load", () => {
         // Calcular la diferencia en años, meses y días
         let years = today.getFullYear() - anniversary.getFullYear();
         let months = today.getMonth() - anniversary.getMonth();
-        let days = today.getDate() - anniversary.getDate();
+        let days = today.getDate() - anniversary.getDate() - 1;
         let hora = today.getHours();
         let minutos = today.getMinutes();
 
 
 
         // Si el mes actual es anterior al mes de aniversario, restamos 1 año
-        if (months < 0) {
+        if (months < 0 || (months === 0 && days < 0)) {
             years--;
             months += 12; // Ajustamos los meses a 12 si restamos un año
         }
@@ -227,7 +227,8 @@ const mensajes = [
     "💞 Si tu amor fuera un sueño, nunca querría despertar.",
     "🚀 Si la belleza fuera un planeta, tú serías el centro del universo.",
     "🌟 Cada vez que te miro, entiendo por qué los ángeles existen.",
-    "🍫 Eres más dulce que el mejor chocolate del mundo."
+    "🍫 Eres más dulce que el mejor chocolate del mundo.",
+    "🍨 En mi vida eres como una ensalada agridulce: la combinación perfecta de ternura y emoción que la hace única y especial💕🥰."
 
 ];
 
@@ -401,37 +402,37 @@ images.forEach(song => {
 const events = [{
         title: 'Primera Cita',
         date: '17 de Enero de 2021',
-        image: '/assets/img/primeraSalida.jpg',
+        image: 'assets/img/primeraSalida.jpg',
         description: 'Nuestra primera cita salimos a comer a DCGusto. ¡Hubieron muchos piropos!'
     },
     {
         title: 'Siguientes Cita',
         date: 'Enero de 2021',
-        image: '/assets/img/segundaSalida.jpg',
+        image: 'assets/img/segundaSalida.jpg',
         description: 'Nuestras citas saliamos a comer o caminar para conocer mas de la vida de la otra persona.'
     },
     {
         title: 'Siguientes Cita',
         date: 'Febrero de 2021',
-        image: '/assets/img/ejercicio.jpg',
+        image: 'assets/img/ejercicio.jpg',
         description: 'Tambien saliamos a hacer ejercio juntos.'
     },
     {
         title: 'Siguientes Cita',
         date: '18 de Febrero de 2021',
-        image: '/assets/img/potrero.jpg',
+        image: 'assets/img/potrero.jpg',
         description: 'Nos gustaba ir a caminar en la naturaleza y pasar un rato agadable.'
     },
     {
         title: 'Siguientes Cita',
         date: 'Marzo de 2021',
-        image: '/assets/img/salidasNoches.jpg',
+        image: 'assets/img/salidasNoches.jpg',
         description: 'La mayoria de nuestras citas eran de noche.'
     },
     {
         title: 'Novios',
         date: '20 Marzo de 2021',
-        image: '/assets/img/cuadre.jpg',
+        image: 'assets/img/cuadre.jpg',
         description: 'Ese día comenzo nuestra historia como una pareja oficial.'
     },
     {
