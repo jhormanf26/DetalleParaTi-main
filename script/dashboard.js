@@ -376,11 +376,38 @@ canciones.forEach(song => {
 
 // Array de objetos con la información de las imágenes
 const images = [
-    { src: 'https://img.pikbest.com/origin/09/23/03/46jpIkbEsTEJX.png!w700wp', alt: 'Descripción de la foto 1', text: 'Momentos inolvidables' },
-    { src: 'https://img.pikbest.com/origin/09/23/03/46jpIkbEsTEJX.png!w700wp', alt: 'Descripción de la foto 2', text: 'Aventuras compartidas' },
-    { src: 'https://img.pikbest.com/origin/09/23/03/46jpIkbEsTEJX.png!w700wp', alt: 'Descripción de la foto 3', text: 'Risas y alegría' },
-    { src: 'https://img.pikbest.com/origin/09/23/03/46jpIkbEsTEJX.png!w700wp', alt: 'Descripción de la foto 4', text: 'Naturaleza y paz' },
-    { src: 'https://img.pikbest.com/origin/09/23/03/46jpIkbEsTEJX.png!w700wp', alt: 'Descripción de la foto 4', text: 'Naturaleza y paz' }
+    { src: 'assets/img/ejercicio.jpg', alt: 'Descripción de la foto 1', text: 'Ejercitandonos' },
+    { src: 'assets/img/mar5.jpeg', alt: 'Descripción de la foto 2', text: 'Aventuras compartidas' },
+    { src: 'assets/img/puente.jpeg', alt: 'Descripción de la foto 3', text: 'Risas y alegría' },
+    { src: 'assets/img/florian1.jpeg', alt: 'Descripción de la foto 4', text: 'Naturaleza y paz' },
+    { src: 'assets/img/nevado1.jpeg', alt: 'Descripción de la foto 5', text: 'Naturaleza y paz' },
+    { src: 'assets/img/foto1.jpeg', alt: 'Descripción de la foto 6', text: 'Momentos lindos' },
+
+    { src: 'assets/img/bautizo.jpeg', alt: 'Descripción de la foto 7', text: ' ' },
+    { src: 'assets/img/cena.jpeg', alt: 'Descripción de la foto 8', text: ' ' },
+    { src: 'assets/img/cena2.jpeg', alt: 'Descripción de la foto 9', text: ' ' },
+    { src: 'assets/img/cenaGJ.jpeg', alt: 'Descripción de la foto 10', text: ' ' }, 
+    { src: 'assets/img/corazon.jpeg', alt: 'Descripción de la foto 11', text: ' ' },
+    { src: 'assets/img/cuadre.jpg', alt: 'Descripción de la foto 12', text: ' ' },
+    { src: 'assets/img/florian2.jpeg', alt: 'Descripción de la foto 13', text: ' ' },
+    { src: 'assets/img/foto2.jpeg', alt: 'Descripción de la foto 14', text: ' ' },
+    { src: 'assets/img/foto3.jpeg', alt: 'Descripción de la foto 15', text: ' ' },
+    { src: 'assets/img/jaimeDuque.jpeg', alt: 'Descripción de la foto 16', text: ' ' },
+    { src: 'assets/img/juego.jpeg', alt: 'Descripción de la foto 17', text: ' ' },
+    { src: 'assets/img/lago.jpeg', alt: 'Descripción de la foto 18', text: ' ' },
+    { src: 'assets/img/mar1.jpeg', alt: 'Descripción de la foto 19', text: ' ' },
+    { src: 'assets/img/mar2.jpeg', alt: 'Descripción de la foto 20', text: ' ' },
+    { src: 'assets/img/mar3.jpeg', alt: 'Descripción de la foto 21', text: ' ' },
+    { src: 'assets/img/mar4.jpeg', alt: 'Descripción de la foto 22', text: ' ' },
+    { src: 'assets/img/nevado2.jpeg', alt: 'Descripción de la foto 23', text: ' ' },
+    { src: 'assets/img/parqueFlorian.jpeg', alt: 'Descripción de la foto 24', text: ' ' },
+    { src: 'assets/img/potrero.jpg', alt: 'Descripción de la foto 25', text: ' ' },
+    { src: 'assets/img/primeraSalida.jpg', alt: 'Descripción de la foto 24', text: ' ' },
+    { src: 'assets/img/salidasNoches.jpg', alt: 'Descripción de la foto 27', text: ' ' },
+    { src: 'assets/img/segundaSalida.jpg', alt: 'Descripción de la foto 28', text: ' ' },
+
+
+
     // Agrega más objetos de imágenes aquí según sea necesario
 ];
 const contImagenNuestrasFotos = document.querySelector('.collage-container');
@@ -436,17 +463,75 @@ const events = [{
         image: 'assets/img/cuadre.jpg',
         description: 'Ese día comenzo nuestra historia como una pareja oficial.'
     },
+    ,
     {
-        title: 'Viaje a la Playa',
-        date: '20 de julio de 2021',
-        image: 'https://img.fotocommunity.com/love-e336bfd1-7a9b-43a4-9b68-3bec419632db.jpg?width=1000',
-        description: 'Disfrutamos del sol, el mar y las noches estrelladas. ¡Un viaje inolvidable!'
+        title: 'Conociendo Parque Jaime Duque',
+        date: '25 octubre de 2022',
+        image: 'assets/img/jaimeDuque.jpeg',
+        description: 'Un día lleno de risas, descubrimientos y momentos inolvidables. Nuestra primera visita, pero no la última. ❤️'
     },
     {
-        title: 'Aniversario',
-        date: '5 de agosto de 2022',
-        image: 'https://img.fotocommunity.com/love-e336bfd1-7a9b-43a4-9b68-3bec419632db.jpg?width=1000',
-        description: 'Celebramos nuestro segundo aniversario con una cena romántica. ¡Lo pasamos increíble!'
+        title: 'Conociendo Florian',
+        date: 'Enero de 2023',
+        image: 'assets/img/parqueFlorian.jpeg',
+        description: 'Un viaje especial para descubrir el lugar que te vio crecer. Más que un destino, un pedacito de tu historia que ahora también es parte de la mía. ❤️'
+    },
+    ,
+    {
+        title: 'Nuestro primer Bautizo',
+        date: '8 de julio de 2023',
+        image: 'assets/img/bautizo.jpeg',
+        description: 'Un día especial en familia, y lo mejor: a tu lado. Un recuerdo más para nuestra historia. ❤️'
+    },
+    {
+        title: 'Cena especial con el grupo juvenil ✨🙏',
+        date: '17 de diciembre de 2023',
+        image: 'assets/img/cenaGJ.jpeg',
+        description: 'Un momento de unión, risas y gratitud, compartiendo con amigos y nuestros guías espirituales. Una noche para recordar. ❤️'
+    },
+    {
+        title: 'Nuestra cena romántica 🍷💕',
+        date: '30 de noviembre de 2023',
+        image: 'assets/img/cena.jpeg',
+        description: 'Una noche especial, rodeados de amor y buenos momentos. Un recuerdo más en nuestra historia, compartiendo juntos este camino. ❤️'
+    },
+    
+    {
+        title: 'Conociendo el Mar',
+        date: '28 de julio de 2024',
+        image: 'assets/img/mar4.jpeg',
+        description: 'Las olas, la brisa y tu sonrisa hicieron de este día un recuerdo inolvidable. Otra de muchas más aventuras juntos. ❤️'
+    },
+    {
+        title: 'Segunda cena romántica 🍷💕',
+        date: '13 de septiembre de 2024',
+        image: 'assets/img/cena2.jpeg',
+        description: 'Otra noche especial para celebrar nuestro amor, compartir risas y seguir fortaleciendo nuestro camino juntos. ❤️'
+    },
+    {
+        title: 'Conociendo el Nevado',
+        date: '22 de febrero de 2025',
+        image: 'assets/img/nevado1.jpeg',
+        description: 'Ver la nieve por primera vez contigo hizo este momento aún más especial. Un sueño tuyo que se volvió nuestro recuerdo. ❤️'
+    }
+    ,
+    {
+        title: 'Titulo del recuerdo',
+        date: 'fecha del recuerdo',
+        image: 'assets/img/NuevoSeguidor.png',
+        description: 'aca va una descripcion del recuerdo amorcito'
+    },
+    {
+        title: 'Titulo del recuerdo',
+        date: 'fecha del recuerdo',
+        image: 'assets/img/NuevoSeguidor.png',
+        description: 'aca va una descripcion del recuerdo amorcito'
+    },
+    {
+        title: 'Titulo del recuerdo',
+        date: 'fecha del recuerdo',
+        image: 'assets/img/NuevoSeguidor.png',
+        description: 'aca va una descripcion del recuerdo amorcito'
     }
     // Agrega más objetos de eventos aquí según sea necesario
 ];
