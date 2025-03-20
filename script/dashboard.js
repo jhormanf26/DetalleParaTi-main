@@ -80,7 +80,7 @@ window.addEventListener("load", () => {
         // Calcular la diferencia en años, meses y días
         let years = today.getFullYear() - anniversary.getFullYear();
         let months = today.getMonth() - anniversary.getMonth();
-        let days = today.getDate() - anniversary.getDate() - 1;
+        let days = today.getDate() - anniversary.getDate() -1;
         let hora = today.getHours();
         let minutos = today.getMinutes();
 
@@ -304,47 +304,69 @@ document.getElementById('sorpresa-btn').addEventListener('click', function() {
 
 //listar imagenes
 // Arreglo con información de las canciones
-const canciones = [{
+const canciones = [
+    {
+        title: "Traga'o De Ti",
+        artist: " Peter Manjarrés",
+        description: "Porque cada palabra de esta canción describe lo que siento por ti. No hay día en que no me enamore más de tu forma de ser, de tu sonrisa y de todo lo que somos juntos. Eres mi mayor felicidad. 💖",
+        image: "assets/img/TragaoDeTi.jpg",
+        audio: "assets/music/tragaoDeTi.mp3"
+    },
+    {
         title: "Por Eso Te Amo",
-        artist: "Río Roma",
-        description: "Desde que llegaste a mi vida, entendí que el amor verdadero existe… y eres tú.",
+        artist: "Río Roma <br>",
+        description: "<br> ❤️<br> Desde que llegaste a mi vida, entendí que el amor verdadero existe… y eres tú.<br>❤️⭐✨<br><br>",
         image: "assets/img/rioRoma.png",
         audio: "assets/music/Río Roma - Por Eso Te Amo.mp3"
     },
     {
         title: "La Promesa",
-        artist: "Melendi",
-        description: "❤️ <br> No te prometo la luna, pero sí amarte bajo su luz todas las noches de mi vida.",
+        artist: "<br>Melendi ",
+        description: "<br> ❤️ <br> No te prometo la luna, pero sí amarte bajo su luz todas las noches de mi vida. <br>❤️⭐✨<br><br>",
         image: "assets/img/laPromesa.png",
         audio: "assets/music/La Promesa - Melendi.mp3"
     },
     {
-        title: "Por Eso Te Amo",
-        artist: "Río Roma",
-        description: "Desde que llegaste a mi vida, entendí que el amor verdadero existe… y eres tú.",
-        image: "assets/img/rioRoma.png",
-        audio: "assets/music/Río Roma - Por Eso Te Amo.mp3"
+        title: "Yellow",
+        artist: "<br>Coldplay",
+        description: '<br>"Look at the stars, look how they shine for you..." ⭐✨ Porque desde que estás en mi vida, todo brilla más. 💛 Te amo. ❤️"<br>',
+        image: "assets/img/yellow.jpg",
+        audio: "assets/music/yellow.mp3"
     },
     {
-        title: "La Promesa",
+        title: "Tu Jardín Con Enanitos",
         artist: "Melendi",
-        description: "No te prometo la luna, pero sí amarte bajo su luz todas las noches de mi vida.",
-        image: "assets/img/laPromesa.png",
-        audio: "assets/music/La Promesa - Melendi.mp3"
+        description: "Tú pintas mi jardín con enanitos y llenas mi vida de colores. 🌻✨ Te amo, mi amor. ❤️ ",
+        image: "assets/img/jardin.jpg",
+        audio: "assets/music/jardin.mp3"
     },
     {
-        title: "Por Eso Te Amo",
-        artist: "Río Roma",
-        description: "Desde que llegaste a mi vida, entendí que el amor verdadero existe… y eres tú.",
-        image: "assets/img/rioRoma.png",
-        audio: "assets/music/Río Roma - Por Eso Te Amo.mp3"
+        title: "Nothin' On You",
+        artist: "Bruno Mars",
+        description: "<br><br> Para mí, no hay nadie como tú... Eres única y perfecta tal como eres. <br>❤️✨",
+        image: "assets/img/nothin.jpg",
+        audio: "assets/music/nothin.mp3"
     },
     {
-        title: "La Promesa",
-        artist: "Melendi",
-        description: "No te prometo la luna, pero sí amarte bajo su luz todas las noches de mi vida.",
-        image: "assets/img/laPromesa.png",
-        audio: "assets/music/La Promesa - Melendi.mp3"
+        title: "Magia",
+        artist: "<br>Andres Cepeda",
+        description: "<br>   Desde que llegaste, mi vida tiene un toque de magia que nunca quiero perder. ✨❤️",
+        image: "assets/img/magia.jpg",
+        audio: "assets/music/magia.mp3"
+    },
+    {
+        title: "Mi suerte",
+        artist: "<br>Morat<br>",
+        description: "<br>Tenerte a mi lado es la mejor suerte que he podido tener. <br> 🍀❤️",
+        image: "assets/img/suerte.jpg",
+        audio: "assets/music/suerte.mp3"
+    },
+    {
+        title: "Chachachà",
+        artist: "Josean log",
+        description: "Bailando a tu ritmo, porque contigo cada momento es un Cha Cha Cha perfecto. 💃❤️🎶",
+        image: "assets/img/cha.jpg",
+        audio: "assets/music/cha.mp3"
     }
 ];
 
