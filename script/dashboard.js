@@ -638,3 +638,6 @@ fotos.forEach(foto => {
 document.getElementById('flor-btn').addEventListener('click', function() {
     window.location.href = 'https://jhormanf26.github.io/Flores';
 });
+document.getElementById('sms-btn').addEventListener('click', function() {
+    window.location.href = 'https://jhormanf26.github.io/mensajes-flotantes/';
+});
